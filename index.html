@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fernando | Portfolio</title>
+    <!-- Usando Inter para un look ultra limpio -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #1e1d22;
+        color: #fafafa;
+      }
+    </style>
+  </head>
+  <body
+    class="max-w-3xl mx-auto px-6 py-12 selection:bg-black selection:text-white"
+  >
+    <!-- NAV -->
+    <nav class="flex justify-between items-center mb-24">
+      <a
+        href="#"
+        class="font-semibold tracking-tight hover:opacity-70 transition-opacity"
+        >fernando.dev</a
+      >
+      <div class="space-x-6 text-sm text-neutral-400">
+        <a href="#projects" class="hover:text-white">Proyectos</a>
+        <a href="#about" class="hover:text-white">Sobre mí</a>
+        <a href="#contact" class="hover:text-white">Contacto</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="mb-32">
+      <h1 class="text-4xl font-normal tracking-tight leading-relaxed mb-6">
+        Desarrollador de software enfocado en crear soluciones eficientes,
+        código limpio y optimización de sistemas.
+      </h1>
+      <p class="text-neutral-400 max-w-xl text-lg">
+        Especializado en automatización, desarrollo web y herramientas de alto
+        rendimiento.
+      </p>
+    </header>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="mb-32">
+      <h2
+        class="text-xs font-semibold uppercase tracking-widest text-neutral-400 mb-8"
+      >
+        Proyectos Seleccionados
+      </h2>
+
+      <div class="space-y-12 divide-y divide-neutral-200">
+        <!-- Proyecto 1 -->
+        <div class="pt-8 first:pt-0 group">
+          <div class="flex justify-between items-baseline mb-2">
+            <h3 class="text-xl font-medium">Focus App</h3>
+            <span class="text-sm text-neutral-400">2026</span>
+          </div>
+          <p class="text-neutral-400 mb-4 text-sm max-w-2xl">
+            Aplicación móvil de entrenamiento y seguimiento de actividad física
+            construida para ofrecer la máxima fluidez y rendimiento en
+            dispositivos móviles.
+          </p>
+          <div class="flex justify-between items-center">
+            <span class="text-xs font-mono">React • Vite • Capacitor</span>
+            <a
+              href="https://github.com/luisvallez/Focus"
+              target="_blank"
+              class="text-sm border-b pb-0.5 hover:text-white text-neutral-400"
+              >Ver proyecto →</a
+            >
+          </div>
+        </div>
+
+        <!-- Proyecto 2 -->
+        <div class="pt-8 group">
+          <div class="flex justify-between items-baseline mb-2">
+            <h3 class="text-xl font-medium">YT Video Downloader</h3>
+            <span class="text-sm text-neutral-400">2026</span>
+          </div>
+          <p class="text-neutral-400 mb-4 text-sm max-w-2xl">
+            Herramienta de escritorio minimalista para la gestión y descarga de
+            contenido multimedia optimizada para un consumo mínimo de recursos.
+          </p>
+          <div class="flex justify-between items-center">
+            <span class="text-xs font-mono">Python • Flet • yt-dlp</span>
+            <a
+              href="https://github.com/luisvallez/YTVideoDownloader"
+              target="_blank"
+              class="text-sm border-b pb-0.5 hover:text-white text-neutral-400"
+              >Código →</a
+            >
+          </div>
+        </div>
+
+        <div class="pt-8 group">
+          <div class="flex justify-between items-baseline mb-2">
+            <h3 class="text-xl font-medium">ImagenJS</h3>
+            <span class="text-sm text-neutral-400">2023</span>
+          </div>
+          <p class="text-neutral-400 mb-4 text-sm max-w-2xl">
+            Herramienta de escritorio minimalista para la gestión y descarga de
+            contenido multimedia optimizada para un consumo mínimo de recursos.
+          </p>
+          <div class="flex justify-between items-center">
+            <span class="text-xs font-mono">CSS • HTML • JavaScript</span>
+            <a
+              href="https://github.com/luisvallez/ImagenJS"
+              target="_blank"
+              class="text-sm border-b pb-0.5 hover:text-white text-neutral-400"
+              >Código →</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER / CONTACTO -->
+    <footer
+      id="contact"
+      class="border-t border-neutral-200 pt-12 text-sm text-neutral-500 flex justify-between items-center"
+    >
+      <div>
+        <p class="text-white font-medium mb-1">Correo</p>
+        <a
+          href="mailto:FerCoding@proton.me"
+          class="text-neutral-400 hover:underline"
+          >FerCoding@proton.me</a
+        >
+      </div>
+      <div class="space-x-4">
+        <a
+          href="https://github.com/luisvallez"
+          target="_blank"
+          class="hover:text-white text-neutral-400"
+          >GitHub</a
+        >
+        <a
+          href="https://www.linkedin.com/in/fernandozamorano/"
+          target="_blank"
+          class="hover:text-white text-neutral-400"
+          >LinkedIn</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
